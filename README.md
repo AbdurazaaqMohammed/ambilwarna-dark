@@ -3,45 +3,18 @@
 Android Color Picker
 ====================
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.yukuku/ambilwarna/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.yukuku/ambilwarna)
-
 aka `AmbilWarna` library ("Pick a Color" in Indonesian)
 
 moved from http://code.google.com/p/yuku-android-util/
 
-This is a small library for your application to enable the users to select an arbitrary color. It is used in the free Bible applications for Android (http://www.bibleforandroid.com). 
+This is a small library for your application to enable the users to select an arbitrary color. 
 
-It is also used by:
-  * 1,000,000+ downloads app <a href='http://www.davidgoemans.com/mainsite/node/26'>DigiClock Widget</a>
-  * 100,000+ downloads app <a href='https://play.google.com/store/apps/details?id=kenyu73.bannerwidget'>Banner</a>
-  * 10,000+ downloads app <a href='https://play.google.com/store/apps/details?id=net.redwarp.widget.memento'>Memento</a>
+This fork allows changing background color easily (default black) and is also compatible with all Android versions
 
-If your application has a feature to customize the color of some background, text, or maybe for a painting application where the user can select different colors for painting or filling, then `AmbilWarna` is suitable for you.
-
-
-Adding it to your project
+Screenshot
 ===========
 
-Android Studio 3.0 and above:
-
-```groovy
-dependencies {
-    implementation 'com.github.yukuku:ambilwarna:2.0.1'
-}
-```
-
-Android Studio 2.3.* and lower:
-
-```groovy
-dependencies {
-    compile 'com.github.yukuku:ambilwarna:2.0.1'
-}
-```
-
-Screenshots
-===========
-
-<img src='http://lh5.ggpht.com/_ODdyLCCXPpQ/TKsFBMSlhdI/AAAAAAAAu6o/vqpGqyCnywY/s800/r230-ambilwarna.png'>
+<img src='ss.jpg'>
 
 
 How to use the dialog
@@ -75,7 +48,7 @@ Example:
 How to use it as a Preference
 =============================
 
-![](http://s11.postimg.org/sfn41uh43/img.png)
+![]()
 
 Very simple. It works like a `DialogPreference` that stores an Integer to the shared preferences file.
 
