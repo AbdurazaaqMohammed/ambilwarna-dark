@@ -241,7 +241,7 @@ public class AmbilWarnaDialog {
 				if (AmbilWarnaDialog.this.supportsAlpha) moveAlphaCursor();
 				moveTarget();
 				if (AmbilWarnaDialog.this.supportsAlpha) updateAlphaView();
-				view.getViewTreeObserver().removeOnGlobalLayoutListener(this);
+				view.getViewTreeObserver().removeGlobalOnLayoutListener(this);
 			}
 		});
 	}
